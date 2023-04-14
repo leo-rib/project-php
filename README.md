@@ -1,5 +1,5 @@
 # project-php
 
-well guys I hope Ive done everything according to what the teacher asked for. sorry for anything, frontend's def not my specialty
-
 updates 13.04 https://youtu.be/M2SxLOvZ2L8
+updates 14.04 html/css done! 
+hope you like it and good luck you guys gonna crush it for sure <3
