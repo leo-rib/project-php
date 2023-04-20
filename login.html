@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="./styles/login.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="background-container">
+        <img src="./assets/login-background.jpg" alt="Background" />
+      </div>
+      <div class="login-container">
+        <form>
+          <span>Welcome! 👋</span>
+          <h2>Login to your account</h2>
+          <label for="username">Email</label>
+          <input
+            placeholder="example@example.com"
+            type="text"
+            id="username"
+            name="username"
+            required
+          />
+          <label for="password">Password</label>
+          <input
+            placeholder="********"
+            type="password"
+            id="password"
+            name="password"
+            required
+          />
+
+          <div class="forgot-password-container">
+            <a href="">Forgot your password?</a>
+          </div>
+
+          <button type="submit">Login now</button>
+
+          <div class="have-account-container">
+            <p>Dont have an account?</p>
+            <a href="">Create account</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
