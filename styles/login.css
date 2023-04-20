@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  /* centering login div */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+
+  height: 100%;
+  width: 100%;
+}
+
+.background-container {
+  height: 100%;
+  width: 50%;
+
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: fill;
+}
+
+.login-container {
+  height: 100%;
+  width: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+form {
+  height: fit-content;
+
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 1.85rem;
+
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+
+  margin: 1rem 0;
+
+  color: #4a5568;
+  font-weight: 500;
+  font-size: 0.895rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 2.5rem;
+  width: 100%;
+
+  padding: 10px;
+  border: none;
+
+  margin-bottom: 10px;
+
+  outline: none;
+
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+}
+
+.forgot-password-container {
+  margin-top: 1rem;
+
+  text-align: right;
+}
+
+a {
+  color: #2c5282;
+  text-decoration: none;
+
+  font-size: 0.85rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.have-account-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.25rem;
+
+  margin-top: 2.5rem;
+}
+
+.have-account-container > a {
+  font-size: 1rem;
+  font-weight: 500;
+
+  color: #2b6cb0;
+}
+
+.have-account-container > p {
+  font-size: 1rem;
+
+  color: #616161;
+}
+
+button[type="submit"] {
+  height: 2.35rem;
+  width: 100%;
+
+  cursor: pointer;
+
+  color: #fff;
+  border: none;
+
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 10px 20px;
+
+  background: #00a1f2;
+
+  margin-top: 1.5rem;
+
+  transition: filter 0.2s ease;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+/* Media queries */
+@media (max-width: 1024px) {
+  .background-container {
+    display: none;
+  }
+
+  .login-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  .have-account-container > p {
+    font-size: 0.85rem;
+  }
+
+  .have-account-container > a {
+    font-size: 0.85rem;
+  }
+}
